@@ -25,6 +25,7 @@ var shopping_basket = {
       if(this.total >= 20){
         this.total -= (this.total * 0.1);
       }
+      return;
     }
 
 

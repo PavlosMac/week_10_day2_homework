@@ -33,8 +33,8 @@ describe('shopping basket', function(){
   it('can check if a discount can be applied', function(){
     shopping_basket.addItem(item2);
     shopping_basket.basketTotal();
-    shopping_basket.checkForDiscount();
-    assert.equal(20, shopping_basket.total;
+    // shopping_basket.checkForDiscount();
+    assert.equal(22, shopping_basket.total);
   })
 
 })
